@@ -1,0 +1,100 @@
+/*Satrt the large screens*/
+@media (min-width:1201px ) and (max-width: 1440px)
+{
+   
+}
+@media (min-width:1025px) and (max-width:1200px)
+{
+
+}
+/*Start the screen of tablet*/
+@media (min-width: 993px) and (max-width: 1024px)
+{
+    .icons .owl-carousel .card .border {
+        left: 43.5%;
+    }
+}
+@media (min-width: 769px) and (max-width: 992px)
+{
+    .icons .owl-carousel .card .border {
+        left: 44%;
+    }
+}
+/*Start the screen of mobbile*/
+@media (min-width: 577px) and (max-width: 768px)
+{
+    .icons .owl-carousel .card .border {
+        left: 41%;
+    }
+}
+@media(min-width: 426px) and (max-width: 576px)
+{
+    .icons .owl-carousel .card .border {
+        left: 44.5%;
+    }
+    header .container-fluid .header-content .learn {
+        margin-top: 11px;
+    }
+}
+@media (min-width: 376px) and (max-width: 425px)
+{  
+    .icons .owl-carousel .card .border {
+        left: 42.8%;
+    }
+
+}
+@media (min-width: 321px) and (max-width: 375px)
+{
+    .icons .owl-carousel .card .border {
+        left: 42%;
+    }
+    header .container-fluid .header-content .learn {
+        margin-top: 11px;
+    }
+
+}
+@media (max-width: 320px)
+{
+    .icons .owl-carousel .card .border {
+        left: 40.5%;
+        top: 48px;
+    }
+    header .container-fluid .header-content .learn {
+        margin-top: 11px;
+    }
+}
+@media(min-width:425px)
+{
+    .study .container .study-content .row .card {
+        position: absolute;
+        left: 23%;
+        top: 14%;
+        z-index: 9999999;
+      }
+      .study .container .study-content .row img {
+        width: 65%;
+        height: 60vh;
+        margin-top: 50px;
+      }
+      .study .container .study-content .row .card {
+        width: 86% !important;
+        height: 84%;
+      }
+}
+@media(max-width:425px){
+    .information {
+        height: 100vh;
+
+  }
+  .logos .container .icons-carousel .item{
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  }
+  .pricing .container .row .card {
+      margin-top: 10px;
+  }
+  footer{
+    height: 15vh;
+}
+}
